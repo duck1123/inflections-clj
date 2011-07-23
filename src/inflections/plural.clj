@@ -3,7 +3,7 @@
         inflections.rules
         inflections.uncountable))
 
-(def *plural-rules* (atom []))
+(def ^:dynamic *plural-rules* (atom []))
 
 (defn plural!
   "Define rule(s) to map words from singular to plural.\n

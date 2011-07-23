@@ -2,7 +2,7 @@
   (:use [clojure.contrib.string :only (blank?)]
         inflections.rules inflections.uncountable))
 
-(def *singular-rules* (atom []))
+(def ^:dynamic *singular-rules* (atom []))
 
 (defn singular!
   "Define rule(s) to map words from singular to plural.\n
