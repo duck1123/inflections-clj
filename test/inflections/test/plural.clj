@@ -29,7 +29,7 @@
     (init-plural-rules)
     (are [word expected]
          (is (= (pluralize word) expected))
-         " " " " 
+         " " " "
          "" ""
          "ability" "abilities"
          "address" "addresses"

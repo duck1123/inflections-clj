@@ -1,5 +1,5 @@
 (ns inflections.singular
-  (:use [clojure.contrib.string :only (blank?)]
+  (:use [clojure.string :only (blank?)]
         inflections.rules inflections.uncountable))
 
 (def ^:dynamic *singular-rules* (atom []))

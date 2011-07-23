@@ -1,5 +1,5 @@
 (ns inflections.plural
-  (:use [clojure.contrib.str-utils2 :only (blank?)]
+  (:use [clojure.string :only (blank?)]
         inflections.rules
         inflections.uncountable))
 
